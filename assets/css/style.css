@@ -59,7 +59,7 @@ h6 {
 	@media (min-width:1200px) {
 		.container {
 			width:1170px;
-	}
+		}
 	}
   ​
 .row::after {
@@ -110,7 +110,8 @@ h6 {
 	.col-12 {width: 100%;}
 }
   ​
-  /* General Ends Here */
+	/* General Ends Here */
+	
 .first-bg {
 	background-color: black !important;
 	color:white;
@@ -158,4 +159,10 @@ h6 {
 .state {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.img-circle {
+	border-radius:50%;
+	width:100px;
+	height:100px;
 }
