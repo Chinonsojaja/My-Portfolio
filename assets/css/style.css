@@ -2,11 +2,14 @@
 html, body {
   margin:0px;
 }
+*{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 
 body {
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 200;
     color: rgba(132, 130, 130);
     background-color: white;
 }
@@ -16,19 +19,30 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
+h1{
+	font-size: 40px;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: normal;
+}
 .container {
   padding-right:15px;
   padding-left:15px;
   margin-right:auto;
   margin-left:auto
 }
+.state{
+	margin-top: -160px;
+}
 @media (min-width:768px) {
   .container {
-    width:750px
+    width:700px
   }
 
 }@media (min-width:992px) {
@@ -94,21 +108,22 @@ img {
 .first-bg {
 	background-color: black !important;
 	color:white;
+	
 }
 .topnav {
    overflow:hidden;
    background-color:transparent;
+   
 }
 
-.topnav > a::before {content: "• "; color: chocolate}
 .topnav a{
 	float:right;
 	display:block;
 	color:white;
 	text-align:center;
-	padding: 14px 16px;
+	padding: 20px 35px;
 	text-decoration:none;
-	font-size:17px;
+	font-size:15px;
 }
 
 .topnav .icon {
@@ -138,36 +153,34 @@ img {
 }
 
 .state {
-	padding-top: 50px;
-	padding-bottom: 80px;
+	padding-top: 250px;
 }
 
 .img-circle {
 	border-radius:50%;
-	width:150px;
-	height:150px;
+	width:200px;
+	height:200px;
 }
 
 .typewrite {
-	color:green;
+	color:whitesmoke;
 }
 
 .sub-first-bg {
-	background-color: cornflowerblue;
-	color: white !important;
+	color: gray !important;
 	height:80px;
 	font-size:20px;
+	/* padding-right: 100px; */
 }
 
 @media only screen and (max-width:1024px) {
 	.sub-first-bg {
-		height:150px;
+		height:50;
 	}
 }
 
 .spaced {
 	padding-top:10px;
-	padding-bottom:10px;
 }
 
 .spaced1 {
@@ -177,6 +190,9 @@ img {
 }
 .text-center {
 	text-align: center;
+}
+.text-center a {
+	color: #eee
 }
 
 .round {
